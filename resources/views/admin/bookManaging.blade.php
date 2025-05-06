@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Managing</title>
-    <link rel="stylesheet" href="{{ asset('css/admin/bookManaging.css') }}">
+    <link rel="stylesheet" href="{{ Storage::disk('s3')->url('css/bookManaging.css') }}">
 </head>
 <body>
 

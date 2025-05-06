@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Book Categories</title>
-    <link rel="stylesheet" href="{{ asset('css/book/bookCategoriesList.css') }}">
+    <link rel="stylesheet" href="{{ Storage::disk('s3')->url('css/bookCategoriesList.css') }}">
 </head>
 <body>
 @include('includes.navigationbar')

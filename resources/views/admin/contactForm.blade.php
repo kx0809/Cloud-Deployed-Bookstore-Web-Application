@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Contact Forms</title>
-    <link rel="stylesheet" href="{{ asset('css/admin/contactForm.css') }}">
+    <link rel="stylesheet" href="{{ Storage::disk('s3')->url('css/contactForm.css') }}">
 </head>
 <body>
 

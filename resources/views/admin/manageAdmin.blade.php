@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/admin/manageAdmin.css') }}">
+    <link rel="stylesheet" href="{{ Storage::disk('s3')->url('css/manageAdmin.css') }}">
 </head>
 <body class="profile-page">
 

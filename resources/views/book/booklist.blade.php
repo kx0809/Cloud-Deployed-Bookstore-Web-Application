@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unpopular. - Book List</title>
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/book/booklist.css') }}">
+    <link rel="stylesheet" href="{{ Storage::disk('s3')->url('css/booklist.css') }}">
     </style>
 </head>
 <body>

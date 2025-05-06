@@ -175,7 +175,7 @@
             <li><a href="/purchased_books">My Books</a></li>
             <li>
                 <a href="/cart" style="position: relative;">
-                    <img src="{{ asset('icon/cart.png') }}" alt="Shopping Cart" style="width: 24px; height: 24px;">
+                    <img src="{{ Storage::disk('s3')->url('icon/cart.png') }}" alt="Shopping Cart" style="width: 24px; height: 24px;">
                     @if(session('cart_count', 0) > 0)
                         <span style="
                             position: absolute;
